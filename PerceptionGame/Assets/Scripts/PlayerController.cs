@@ -9,11 +9,12 @@ public class PlayerController : MonoBehaviour
     public float camSensitivty = 5f;
     public Transform camtransform;
     public float camMaxAngle = 60.0f;
+	public float gravity = -9.18f;
 
     private CharacterController _controller;
     private Vector3 _velocity;
     private Vector2 mouseLook;
-    private float gravity = -9.18f;
+
     bool _isGrounded;
     void Start()
     {
