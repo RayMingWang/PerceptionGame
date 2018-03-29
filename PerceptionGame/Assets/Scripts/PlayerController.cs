@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         mouseLook += rawMouseInput * camSensitivty;
         mouseLook.x = Mathf.Clamp(mouseLook.x, -camMaxAngle, camMaxAngle);
         transform.localEulerAngles = new Vector3(0, mouseLook.y, 0);
-        Debug.Log(mouseLook.y);
+        //Debug.Log(mouseLook.y);
         //camtransform.Rotate(new Vector3(-rawMouseInput.x,0, 0));
         camtransform.localEulerAngles = new Vector3(-mouseLook.x,0,0);
         /*
