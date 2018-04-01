@@ -44,9 +44,12 @@ public class PlayerController : MonoBehaviour
         if (_isGrounded && _velocity.y < 0)
             _velocity.y = 0f;
 
-
+        if (Input.GetButtonDown("Jump"))
+            _velocity.y += -JumpForce * gravity;
+        /*
         if (Input.GetButtonDown("Jump") && _isGrounded)
             _velocity.y += -JumpForce*gravity;
+            */
 
 
         //Cam Controll
