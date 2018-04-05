@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource flyaudio;
+
     public float speed=1.0f;
-    public float JumpForce=2.0f;
+    public float JumpForce=0.3f;
+    public float FlyForce = 0.95f;
+    public int fly_count = 0;
     public float camSensitivty = 5f;
     public Transform camtransform;
     public float camMaxAngle = 60.0f;
@@ -45,10 +49,24 @@ public class PlayerController : MonoBehaviour
             _velocity.y = 0f;
 
         if (Input.GetButtonDown("Jump"))
-            _velocity.y += -JumpForce * gravity;
+        {
+            if (fly_count > 0)
+            {
+                flyaudio.Play();
+                _velocity.y += -FlyForce * gravity;
+                fly_count--;
+            }
+            if (_isGrounded )
+            {
+                _velocity.y += -JumpForce * gravity;
+            }
+
+        }
+
+            
         /*
         if (Input.GetButtonDown("Jump") && _isGrounded)
-            _velocity.y += -JumpForce*gravity;
+            
             */
 
 

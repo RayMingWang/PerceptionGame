@@ -19,13 +19,18 @@ public class LookTrigger : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!triggered)
+        player = other.GetComponent<Transform>();
+        playercamera = player.Find("Player Camera").GetComponentInChildren<Transform>();
+        player_controller = other.GetComponent<PlayerController>();
+        if (player_controller.fly_count==0)
         {
-            player = other.GetComponent<Transform>();
-            playercamera = player.Find("Player Camera").GetComponentInChildren<Transform>();
-            player_controller = other.GetComponent<PlayerController>();
+            
             max_distance = Vector3.Distance(player.position, this.transform.position);
             Debug.Log("Enter");
+        }
+        else
+        {
+            player = null;
         }
         
     }
@@ -39,17 +44,17 @@ public class LookTrigger : MonoBehaviour {
         float angle_multi = Vector3.Distance(defalutAngle,this.transform.forward);
         angle_multi = (0.2f - angle_multi / 2f)*maxOpaque;
         statue.SetPromptTransparency(angle_multi * distance_multi);
-        if (angle_multi > 0.83f)
+        if (angle_multi * distance_multi > 0.7f)
         {
-            if (!triggered)
+            if (player_controller.fly_count == 0)
             {
-                triggered = true;
-                player_controller.JumpForce = 0.95f;
+                player_controller.fly_count = 5;
+                
                 audio.Play();
             }
 
         }
-        Debug.Log(angle_multi);
+        Debug.Log(angle_multi * distance_multi);
     }
     private void OnTriggerExit(Collider other)
     {
