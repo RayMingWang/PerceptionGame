@@ -16,8 +16,9 @@ public class StatueSet : MonoBehaviour
 
     public Vector3 GetAngleByDist(Vector3 distance)
     {
-        
-        return Vector3.Normalize(transform.position-distance);
+
+        return Vector3.Normalize(transform.Find("Refe").GetComponentInChildren<Transform>().position - distance);
+        //return Vector3.Normalize(transform.position-distance);
     }
 
 

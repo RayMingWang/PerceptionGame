@@ -43,8 +43,8 @@ public class LookTrigger : MonoBehaviour {
 
         float angle_multi = Vector3.Distance(defalutAngle,this.transform.forward);
         angle_multi = (0.2f - angle_multi / 2f)*maxOpaque;
-        statue.SetPromptTransparency(angle_multi * distance_multi);
-        if (angle_multi * distance_multi > 0.7f)
+        statue.SetPromptTransparency(angle_multi+ distance_multi*0.6f);
+        if (angle_multi + distance_multi * 0.6f > 0.7f)
         {
             if (player_controller.fly_count == 0)
             {
@@ -54,7 +54,7 @@ public class LookTrigger : MonoBehaviour {
             }
 
         }
-        Debug.Log(angle_multi * distance_multi);
+        Debug.Log(angle_multi + distance_multi * 0.6f);
     }
     private void OnTriggerExit(Collider other)
     {
