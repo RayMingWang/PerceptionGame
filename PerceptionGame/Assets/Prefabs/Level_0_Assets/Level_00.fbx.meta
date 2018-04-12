@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 6afe4d87216fd8f4aab65af56cc17e7d
+timeCreated: 1523371937
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: areaLight1
+    100002: areaLight2
+    100004: areaLight3
+    100006: areaLight4
+    100008: Arrow1
+    100010: Arrow10
+    100012: Arrow11
+    100014: Arrow12
+    100016: Arrow13
+    100018: Arrow14
+    100020: Arrow15
+    100022: Arrow16
+    100024: Arrow17
+    100026: Arrow18
+    100028: Arrow19
+    100030: Arrow2
+    100032: Arrow20
+    100034: Arrow21
+    100036: Arrow22
+    100038: Arrow23
+    100040: Arrow3
+    100042: Arrow4
+    100044: Arrow5
+    100046: Arrow6
+    100048: Arrow7
+    100050: Arrow8
+    100052: Arrow9
+    100054: ArrowBodyComponents
+    100056: ArrowWingComponents
+    100058: ArrowWingComponents1
+    100060: ArrowWingComponents2
+    100062: ArrowWingComponents3
+    100064: Camera_Group
+    100066: Ceiling
+    100068: Center
+    100070: CenterandFloorBoard
+    100072: ChairRail
+    100074: EastWall
+    100076: FakeExit
+    100078: FakeExit 1
+    100080: FakeExit_Boarder
+    100082: FirstExitArrow_Group
+    100084: Floor
+    100086: FloorBoard
+    100088: //RootNode
+    100090: Lights_Group
+    100092: Lvl00_Room
+    100094: Lvl00_Walls_All
+    100096: Lvl00_Walls_Group
+    100098: NegativeSpace_Arrow
+    100100: NegSpaceArrow_Body1
+    100102: NegSpaceArrow_Body2
+    100104: NegSpaceGuides_Group
+    100106: NorthWall
+    100108: pCone1
+    100110: pCube1
+    100112: pCube2
+    100114: Perspective1
+    100116: Picture_Frame
+    100118: Picture_Frame1
+    100120: Picture_Frame2
+    100122: Picture_Frame3
+    100124: Picture_Frame4
+    100126: Picture_Frame5
+    100128: Picture_Frame6
+    100130: Picture_Frame_Face
+    100132: Picture_Frame_Face 1
+    100134: Picture_Frame_Face 2
+    100136: Picture_Frame_Face 3
+    100138: Picture_Frame_Face 4
+    100140: Picture_Frame_Face 5
+    100142: Picture_Frame_Face 6
+    100144: Picture_Frame_Front
+    100146: Picture_Frame_Front 1
+    100148: Picture_Frame_Front 2
+    100150: Picture_Frame_Front 3
+    100152: Picture_Frame_Front 4
+    100154: Picture_Frame_Front 5
+    100156: Picture_Frame_Front 6
+    100158: Picture_Frame_InnerBoarder
+    100160: Picture_Frame_InnerBoarder 1
+    100162: Picture_Frame_InnerBoarder 2
+    100164: Picture_Frame_InnerBoarder 3
+    100166: Picture_Frame_InnerBoarder 4
+    100168: Picture_Frame_InnerBoarder 5
+    100170: Picture_Frame_InnerBoarder 6
+    100172: Picture_Frame_InnerGroup
+    100174: Picture_Frame_InnerGroup 1
+    100176: Picture_Frame_InnerGroup 2
+    100178: Picture_Frame_InnerGroup 3
+    100180: Picture_Frame_InnerGroup 4
+    100182: Picture_Frame_InnerGroup 5
+    100184: Picture_Frame_InnerGroup 6
+    100186: Picture_Group
+    100188: Pillar
+    100190: Pillar1
+    100192: PositiveSpace_Arrow10
+    100194: PositiveSpace_Arrow11
+    100196: PositiveSpace_Arrow12
+    100198: PositiveSpace_Arrow13
+    100200: PositiveSpace_Arrow14
+    100202: PositiveSpace_Arrow15
+    100204: PositiveSpace_Arrow16
+    100206: PositiveSpace_Arrow17
+    100208: PositiveSpace_Arrow18
+    100210: PositiveSpace_Arrow19
+    100212: PositiveSpace_Arrow20
+    100214: PositiveSpace_Arrow21
+    100216: PositiveSpace_Arrow22
+    100218: PositiveSpace_Arrow23
+    100220: PositiveSpace_Arrow24
+    100222: PositiveSpace_Arrow25
+    100224: PositiveSpace_Arrow26
+    100226: PositiveSpace_Arrow27
+    100228: PositiveSpace_Arrow3
+    100230: PositiveSpace_Arrow31
+    100232: PositiveSpace_Arrow32
+    100234: PositiveSpace_Arrow33
+    100236: PositiveSpace_Arrow34
+    100238: PositiveSpace_Arrow35
+    100240: PositiveSpace_Arrow36
+    100242: PositiveSpace_Arrow37
+    100244: PositiveSpace_Arrow38
+    100246: PositiveSpace_Arrow39
+    100248: PositiveSpace_Arrow4
+    100250: PositiveSpace_Arrow40
+    100252: PositiveSpace_Arrow41
+    100254: PositiveSpace_Arrow42
+    100256: PositiveSpace_Arrow43
+    100258: PositiveSpace_Arrow44
+    100260: PositiveSpace_Arrow44 1
+    100262: PositiveSpace_Arrow44 2
+    100264: PositiveSpace_Arrow44 3
+    100266: PositiveSpace_Arrow45
+    100268: PositiveSpace_Arrow45 1
+    100270: PositiveSpace_Arrow45 2
+    100272: PositiveSpace_Arrow45 3
+    100274: PositiveSpace_Arrow46
+    100276: PositiveSpace_Arrow46 1
+    100278: PositiveSpace_Arrow46 2
+    100280: PositiveSpace_Arrow46 3
+    100282: PositiveSpace_Arrow47
+    100284: PositiveSpace_Arrow47 1
+    100286: PositiveSpace_Arrow47 2
+    100288: PositiveSpace_Arrow47 3
+    100290: PositiveSpace_Arrow48
+    100292: PositiveSpace_Arrow48 1
+    100294: PositiveSpace_Arrow48 2
+    100296: PositiveSpace_Arrow48 3
+    100298: PositiveSpace_Arrow49
+    100300: PositiveSpace_Arrow49 1
+    100302: PositiveSpace_Arrow49 2
+    100304: PositiveSpace_Arrow49 3
+    100306: PositiveSpace_Arrow5
+    100308: PositiveSpace_Arrow50
+    100310: PositiveSpace_Arrow50 1
+    100312: PositiveSpace_Arrow50 2
+    100314: PositiveSpace_Arrow50 3
+    100316: PositiveSpace_Arrow51
+    100318: PositiveSpace_Arrow51 1
+    100320: PositiveSpace_Arrow51 2
+    100322: PositiveSpace_Arrow51 3
+    100324: PositiveSpace_Arrow52
+    100326: PositiveSpace_Arrow52 1
+    100328: PositiveSpace_Arrow52 2
+    100330: PositiveSpace_Arrow52 3
+    100332: PositiveSpace_Arrow53
+    100334: PositiveSpace_Arrow53 1
+    100336: PositiveSpace_Arrow53 2
+    100338: PositiveSpace_Arrow53 3
+    100340: PositiveSpace_Arrow54
+    100342: PositiveSpace_Arrow54 1
+    100344: PositiveSpace_Arrow54 2
+    100346: PositiveSpace_Arrow54 3
+    100348: PositiveSpace_Arrow55
+    100350: PositiveSpace_Arrow55 1
+    100352: PositiveSpace_Arrow55 2
+    100354: PositiveSpace_Arrow55 3
+    100356: PositiveSpace_Arrow56
+    100358: PositiveSpace_Arrow56 1
+    100360: PositiveSpace_Arrow56 2
+    100362: PositiveSpace_Arrow56 3
+    100364: PositiveSpace_Arrow6
+    100366: PositiveSpace_Arrow7
+    100368: PositiveSpace_Arrow8
+    100370: PositiveSpace_Arrow9
+    100372: PositiveSpace_ArrowGuide
+    100374: PosSpace_Guides_Group
+    100376: PosSpaceArrow
+    100378: pTorus1
+    100380: pTorus2
+    100382: SouthWall
+    100384: transform6
+    100386: transform6 1
+    100388: transform6 2
+    100390: transform6 3
+    100392: transform6 4
+    100394: transform6 5
+    100396: transform7
+    100398: transform7 1
+    100400: transform7 2
+    100402: transform7 3
+    100404: transform7 4
+    100406: transform7 5
+    100408: Walls_ChairRail_FloorBoard
+    100410: Walls_UpperPortionandFloor
+    100412: WestWall
+    400000: areaLight1
+    400002: areaLight2
+    400004: areaLight3
+    400006: areaLight4
+    400008: Arrow1
+    400010: Arrow10
+    400012: Arrow11
+    400014: Arrow12
+    400016: Arrow13
+    400018: Arrow14
+    400020: Arrow15
+    400022: Arrow16
+    400024: Arrow17
+    400026: Arrow18
+    400028: Arrow19
+    400030: Arrow2
+    400032: Arrow20
+    400034: Arrow21
+    400036: Arrow22
+    400038: Arrow23
+    400040: Arrow3
+    400042: Arrow4
+    400044: Arrow5
+    400046: Arrow6
+    400048: Arrow7
+    400050: Arrow8
+    400052: Arrow9
+    400054: ArrowBodyComponents
+    400056: ArrowWingComponents
+    400058: ArrowWingComponents1
+    400060: ArrowWingComponents2
+    400062: ArrowWingComponents3
+    400064: Camera_Group
+    400066: Ceiling
+    400068: Center
+    400070: CenterandFloorBoard
+    400072: ChairRail
+    400074: EastWall
+    400076: FakeExit
+    400078: FakeExit 1
+    400080: FakeExit_Boarder
+    400082: FirstExitArrow_Group
+    400084: Floor
+    400086: FloorBoard
+    400088: //RootNode
+    400090: Lights_Group
+    400092: Lvl00_Room
+    400094: Lvl00_Walls_All
+    400096: Lvl00_Walls_Group
+    400098: NegativeSpace_Arrow
+    400100: NegSpaceArrow_Body1
+    400102: NegSpaceArrow_Body2
+    400104: NegSpaceGuides_Group
+    400106: NorthWall
+    400108: pCone1
+    400110: pCube1
+    400112: pCube2
+    400114: Perspective1
+    400116: Picture_Frame
+    400118: Picture_Frame1
+    400120: Picture_Frame2
+    400122: Picture_Frame3
+    400124: Picture_Frame4
+    400126: Picture_Frame5
+    400128: Picture_Frame6
+    400130: Picture_Frame_Face
+    400132: Picture_Frame_Face 1
+    400134: Picture_Frame_Face 2
+    400136: Picture_Frame_Face 3
+    400138: Picture_Frame_Face 4
+    400140: Picture_Frame_Face 5
+    400142: Picture_Frame_Face 6
+    400144: Picture_Frame_Front
+    400146: Picture_Frame_Front 1
+    400148: Picture_Frame_Front 2
+    400150: Picture_Frame_Front 3
+    400152: Picture_Frame_Front 4
+    400154: Picture_Frame_Front 5
+    400156: Picture_Frame_Front 6
+    400158: Picture_Frame_InnerBoarder
+    400160: Picture_Frame_InnerBoarder 1
+    400162: Picture_Frame_InnerBoarder 2
+    400164: Picture_Frame_InnerBoarder 3
+    400166: Picture_Frame_InnerBoarder 4
+    400168: Picture_Frame_InnerBoarder 5
+    400170: Picture_Frame_InnerBoarder 6
+    400172: Picture_Frame_InnerGroup
+    400174: Picture_Frame_InnerGroup 1
+    400176: Picture_Frame_InnerGroup 2
+    400178: Picture_Frame_InnerGroup 3
+    400180: Picture_Frame_InnerGroup 4
+    400182: Picture_Frame_InnerGroup 5
+    400184: Picture_Frame_InnerGroup 6
+    400186: Picture_Group
+    400188: Pillar
+    400190: Pillar1
+    400192: PositiveSpace_Arrow10
+    400194: PositiveSpace_Arrow11
+    400196: PositiveSpace_Arrow12
+    400198: PositiveSpace_Arrow13
+    400200: PositiveSpace_Arrow14
+    400202: PositiveSpace_Arrow15
+    400204: PositiveSpace_Arrow16
+    400206: PositiveSpace_Arrow17
+    400208: PositiveSpace_Arrow18
+    400210: PositiveSpace_Arrow19
+    400212: PositiveSpace_Arrow20
+    400214: PositiveSpace_Arrow21
+    400216: PositiveSpace_Arrow22
+    400218: PositiveSpace_Arrow23
+    400220: PositiveSpace_Arrow24
+    400222: PositiveSpace_Arrow25
+    400224: PositiveSpace_Arrow26
+    400226: PositiveSpace_Arrow27
+    400228: PositiveSpace_Arrow3
+    400230: PositiveSpace_Arrow31
+    400232: PositiveSpace_Arrow32
+    400234: PositiveSpace_Arrow33
+    400236: PositiveSpace_Arrow34
+    400238: PositiveSpace_Arrow35
+    400240: PositiveSpace_Arrow36
+    400242: PositiveSpace_Arrow37
+    400244: PositiveSpace_Arrow38
+    400246: PositiveSpace_Arrow39
+    400248: PositiveSpace_Arrow4
+    400250: PositiveSpace_Arrow40
+    400252: PositiveSpace_Arrow41
+    400254: PositiveSpace_Arrow42
+    400256: PositiveSpace_Arrow43
+    400258: PositiveSpace_Arrow44
+    400260: PositiveSpace_Arrow44 1
+    400262: PositiveSpace_Arrow44 2
+    400264: PositiveSpace_Arrow44 3
+    400266: PositiveSpace_Arrow45
+    400268: PositiveSpace_Arrow45 1
+    400270: PositiveSpace_Arrow45 2
+    400272: PositiveSpace_Arrow45 3
+    400274: PositiveSpace_Arrow46
+    400276: PositiveSpace_Arrow46 1
+    400278: PositiveSpace_Arrow46 2
+    400280: PositiveSpace_Arrow46 3
+    400282: PositiveSpace_Arrow47
+    400284: PositiveSpace_Arrow47 1
+    400286: PositiveSpace_Arrow47 2
+    400288: PositiveSpace_Arrow47 3
+    400290: PositiveSpace_Arrow48
+    400292: PositiveSpace_Arrow48 1
+    400294: PositiveSpace_Arrow48 2
+    400296: PositiveSpace_Arrow48 3
+    400298: PositiveSpace_Arrow49
+    400300: PositiveSpace_Arrow49 1
+    400302: PositiveSpace_Arrow49 2
+    400304: PositiveSpace_Arrow49 3
+    400306: PositiveSpace_Arrow5
+    400308: PositiveSpace_Arrow50
+    400310: PositiveSpace_Arrow50 1
+    400312: PositiveSpace_Arrow50 2
+    400314: PositiveSpace_Arrow50 3
+    400316: PositiveSpace_Arrow51
+    400318: PositiveSpace_Arrow51 1
+    400320: PositiveSpace_Arrow51 2
+    400322: PositiveSpace_Arrow51 3
+    400324: PositiveSpace_Arrow52
+    400326: PositiveSpace_Arrow52 1
+    400328: PositiveSpace_Arrow52 2
+    400330: PositiveSpace_Arrow52 3
+    400332: PositiveSpace_Arrow53
+    400334: PositiveSpace_Arrow53 1
+    400336: PositiveSpace_Arrow53 2
+    400338: PositiveSpace_Arrow53 3
+    400340: PositiveSpace_Arrow54
+    400342: PositiveSpace_Arrow54 1
+    400344: PositiveSpace_Arrow54 2
+    400346: PositiveSpace_Arrow54 3
+    400348: PositiveSpace_Arrow55
+    400350: PositiveSpace_Arrow55 1
+    400352: PositiveSpace_Arrow55 2
+    400354: PositiveSpace_Arrow55 3
+    400356: PositiveSpace_Arrow56
+    400358: PositiveSpace_Arrow56 1
+    400360: PositiveSpace_Arrow56 2
+    400362: PositiveSpace_Arrow56 3
+    400364: PositiveSpace_Arrow6
+    400366: PositiveSpace_Arrow7
+    400368: PositiveSpace_Arrow8
+    400370: PositiveSpace_Arrow9
+    400372: PositiveSpace_ArrowGuide
+    400374: PosSpace_Guides_Group
+    400376: PosSpaceArrow
+    400378: pTorus1
+    400380: pTorus2
+    400382: SouthWall
+    400384: transform6
+    400386: transform6 1
+    400388: transform6 2
+    400390: transform6 3
+    400392: transform6 4
+    400394: transform6 5
+    400396: transform7
+    400398: transform7 1
+    400400: transform7 2
+    400402: transform7 3
+    400404: transform7 4
+    400406: transform7 5
+    400408: Walls_ChairRail_FloorBoard
+    400410: Walls_UpperPortionandFloor
+    400412: WestWall
+    2100000: Walls_ChairRail_FloorBoard_MAT
+    2100002: Lvl00Wall_Movie_MAT
+    2100004: Lvl00_Walls_Texture_MAT
+    2100006: WoodFLoorTexture_MAT
+    2100008: lambert1
+    2100010: Arrow_Blinn
+    2100012: Picture_Frame_MAT
+    2100014: Escher_SelfPortratit_MAT
+    2100016: Pictureframe03_MAT
+    2100018: PositiveNegative_MonkeyMen_MAT
+    2100020: Pictureframe04_MAT
+    2100022: DrawingHands_Picture_MAT
+    2100024: Pictureframe05_MAT
+    2100026: Reptiles_MAT
+    2100028: Pictureframe02_MAT
+    2100030: Guls_PosNeg_MAT
+    2100032: Eye_MAT
+    2100034: FakeExit_MAT
+    2300000: Arrow1
+    2300002: Arrow10
+    2300004: Arrow11
+    2300006: Arrow12
+    2300008: Arrow13
+    2300010: Arrow14
+    2300012: Arrow15
+    2300014: Arrow16
+    2300016: Arrow17
+    2300018: Arrow18
+    2300020: Arrow19
+    2300022: Arrow2
+    2300024: Arrow20
+    2300026: Arrow21
+    2300028: Arrow22
+    2300030: Arrow23
+    2300032: Arrow3
+    2300034: Arrow4
+    2300036: Arrow5
+    2300038: Arrow6
+    2300040: Arrow7
+    2300042: Arrow8
+    2300044: Arrow9
+    2300046: Ceiling
+    2300048: Center
+    2300050: ChairRail
+    2300052: EastWall
+    2300054: FakeExit 1
+    2300056: FakeExit_Boarder
+    2300058: Floor
+    2300060: FloorBoard
+    2300062: NegativeSpace_Arrow
+    2300064: NegSpaceArrow_Body1
+    2300066: NegSpaceArrow_Body2
+    2300068: NorthWall
+    2300070: pCone1
+    2300072: pCube1
+    2300074: pCube2
+    2300076: Picture_Frame_Face
+    2300078: Picture_Frame_Face 1
+    2300080: Picture_Frame_Face 2
+    2300082: Picture_Frame_Face 3
+    2300084: Picture_Frame_Face 4
+    2300086: Picture_Frame_Face 5
+    2300088: Picture_Frame_Face 6
+    2300090: Picture_Frame_Front
+    2300092: Picture_Frame_Front 1
+    2300094: Picture_Frame_Front 2
+    2300096: Picture_Frame_Front 3
+    2300098: Picture_Frame_Front 4
+    2300100: Picture_Frame_Front 5
+    2300102: Picture_Frame_Front 6
+    2300104: Picture_Frame_InnerBoarder
+    2300106: Picture_Frame_InnerBoarder 1
+    2300108: Picture_Frame_InnerBoarder 2
+    2300110: Picture_Frame_InnerBoarder 3
+    2300112: Picture_Frame_InnerBoarder 4
+    2300114: Picture_Frame_InnerBoarder 5
+    2300116: Picture_Frame_InnerBoarder 6
+    2300118: Pillar
+    2300120: Pillar1
+    2300122: PositiveSpace_Arrow10
+    2300124: PositiveSpace_Arrow11
+    2300126: PositiveSpace_Arrow12
+    2300128: PositiveSpace_Arrow13
+    2300130: PositiveSpace_Arrow14
+    2300132: PositiveSpace_Arrow15
+    2300134: PositiveSpace_Arrow16
+    2300136: PositiveSpace_Arrow17
+    2300138: PositiveSpace_Arrow18
+    2300140: PositiveSpace_Arrow19
+    2300142: PositiveSpace_Arrow20
+    2300144: PositiveSpace_Arrow21
+    2300146: PositiveSpace_Arrow22
+    2300148: PositiveSpace_Arrow23
+    2300150: PositiveSpace_Arrow24
+    2300152: PositiveSpace_Arrow25
+    2300154: PositiveSpace_Arrow26
+    2300156: PositiveSpace_Arrow27
+    2300158: PositiveSpace_Arrow3
+    2300160: PositiveSpace_Arrow31
+    2300162: PositiveSpace_Arrow32
+    2300164: PositiveSpace_Arrow33
+    2300166: PositiveSpace_Arrow34
+    2300168: PositiveSpace_Arrow35
+    2300170: PositiveSpace_Arrow36
+    2300172: PositiveSpace_Arrow37
+    2300174: PositiveSpace_Arrow38
+    2300176: PositiveSpace_Arrow39
+    2300178: PositiveSpace_Arrow4
+    2300180: PositiveSpace_Arrow40
+    2300182: PositiveSpace_Arrow41
+    2300184: PositiveSpace_Arrow42
+    2300186: PositiveSpace_Arrow43
+    2300188: PositiveSpace_Arrow44
+    2300190: PositiveSpace_Arrow44 1
+    2300192: PositiveSpace_Arrow44 2
+    2300194: PositiveSpace_Arrow44 3
+    2300196: PositiveSpace_Arrow45
+    2300198: PositiveSpace_Arrow45 1
+    2300200: PositiveSpace_Arrow45 2
+    2300202: PositiveSpace_Arrow45 3
+    2300204: PositiveSpace_Arrow46
+    2300206: PositiveSpace_Arrow46 1
+    2300208: PositiveSpace_Arrow46 2
+    2300210: PositiveSpace_Arrow46 3
+    2300212: PositiveSpace_Arrow47
+    2300214: PositiveSpace_Arrow47 1
+    2300216: PositiveSpace_Arrow47 2
+    2300218: PositiveSpace_Arrow47 3
+    2300220: PositiveSpace_Arrow48
+    2300222: PositiveSpace_Arrow48 1
+    2300224: PositiveSpace_Arrow48 2
+    2300226: PositiveSpace_Arrow48 3
+    2300228: PositiveSpace_Arrow49
+    2300230: PositiveSpace_Arrow49 1
+    2300232: PositiveSpace_Arrow49 2
+    2300234: PositiveSpace_Arrow49 3
+    2300236: PositiveSpace_Arrow5
+    2300238: PositiveSpace_Arrow50
+    2300240: PositiveSpace_Arrow50 1
+    2300242: PositiveSpace_Arrow50 2
+    2300244: PositiveSpace_Arrow50 3
+    2300246: PositiveSpace_Arrow51
+    2300248: PositiveSpace_Arrow51 1
+    2300250: PositiveSpace_Arrow51 2
+    2300252: PositiveSpace_Arrow51 3
+    2300254: PositiveSpace_Arrow52
+    2300256: PositiveSpace_Arrow52 1
+    2300258: PositiveSpace_Arrow52 2
+    2300260: PositiveSpace_Arrow52 3
+    2300262: PositiveSpace_Arrow53
+    2300264: PositiveSpace_Arrow53 1
+    2300266: PositiveSpace_Arrow53 2
+    2300268: PositiveSpace_Arrow53 3
+    2300270: PositiveSpace_Arrow54
+    2300272: PositiveSpace_Arrow54 1
+    2300274: PositiveSpace_Arrow54 2
+    2300276: PositiveSpace_Arrow54 3
+    2300278: PositiveSpace_Arrow55
+    2300280: PositiveSpace_Arrow55 1
+    2300282: PositiveSpace_Arrow55 2
+    2300284: PositiveSpace_Arrow55 3
+    2300286: PositiveSpace_Arrow56
+    2300288: PositiveSpace_Arrow56 1
+    2300290: PositiveSpace_Arrow56 2
+    2300292: PositiveSpace_Arrow56 3
+    2300294: PositiveSpace_Arrow6
+    2300296: PositiveSpace_Arrow7
+    2300298: PositiveSpace_Arrow8
+    2300300: PositiveSpace_Arrow9
+    2300302: PositiveSpace_ArrowGuide
+    2300304: pTorus1
+    2300306: pTorus2
+    2300308: SouthWall
+    2300310: WestWall
+    3300000: Arrow1
+    3300002: Arrow10
+    3300004: Arrow11
+    3300006: Arrow12
+    3300008: Arrow13
+    3300010: Arrow14
+    3300012: Arrow15
+    3300014: Arrow16
+    3300016: Arrow17
+    3300018: Arrow18
+    3300020: Arrow19
+    3300022: Arrow2
+    3300024: Arrow20
+    3300026: Arrow21
+    3300028: Arrow22
+    3300030: Arrow23
+    3300032: Arrow3
+    3300034: Arrow4
+    3300036: Arrow5
+    3300038: Arrow6
+    3300040: Arrow7
+    3300042: Arrow8
+    3300044: Arrow9
+    3300046: Ceiling
+    3300048: Center
+    3300050: ChairRail
+    3300052: EastWall
+    3300054: FakeExit 1
+    3300056: FakeExit_Boarder
+    3300058: Floor
+    3300060: FloorBoard
+    3300062: NegativeSpace_Arrow
+    3300064: NegSpaceArrow_Body1
+    3300066: NegSpaceArrow_Body2
+    3300068: NorthWall
+    3300070: pCone1
+    3300072: pCube1
+    3300074: pCube2
+    3300076: Picture_Frame_Face
+    3300078: Picture_Frame_Face 1
+    3300080: Picture_Frame_Face 2
+    3300082: Picture_Frame_Face 3
+    3300084: Picture_Frame_Face 4
+    3300086: Picture_Frame_Face 5
+    3300088: Picture_Frame_Face 6
+    3300090: Picture_Frame_Front
+    3300092: Picture_Frame_Front 1
+    3300094: Picture_Frame_Front 2
+    3300096: Picture_Frame_Front 3
+    3300098: Picture_Frame_Front 4
+    3300100: Picture_Frame_Front 5
+    3300102: Picture_Frame_Front 6
+    3300104: Picture_Frame_InnerBoarder
+    3300106: Picture_Frame_InnerBoarder 1
+    3300108: Picture_Frame_InnerBoarder 2
+    3300110: Picture_Frame_InnerBoarder 3
+    3300112: Picture_Frame_InnerBoarder 4
+    3300114: Picture_Frame_InnerBoarder 5
+    3300116: Picture_Frame_InnerBoarder 6
+    3300118: Pillar
+    3300120: Pillar1
+    3300122: PositiveSpace_Arrow10
+    3300124: PositiveSpace_Arrow11
+    3300126: PositiveSpace_Arrow12
+    3300128: PositiveSpace_Arrow13
+    3300130: PositiveSpace_Arrow14
+    3300132: PositiveSpace_Arrow15
+    3300134: PositiveSpace_Arrow16
+    3300136: PositiveSpace_Arrow17
+    3300138: PositiveSpace_Arrow18
+    3300140: PositiveSpace_Arrow19
+    3300142: PositiveSpace_Arrow20
+    3300144: PositiveSpace_Arrow21
+    3300146: PositiveSpace_Arrow22
+    3300148: PositiveSpace_Arrow23
+    3300150: PositiveSpace_Arrow24
+    3300152: PositiveSpace_Arrow25
+    3300154: PositiveSpace_Arrow26
+    3300156: PositiveSpace_Arrow27
+    3300158: PositiveSpace_Arrow3
+    3300160: PositiveSpace_Arrow31
+    3300162: PositiveSpace_Arrow32
+    3300164: PositiveSpace_Arrow33
+    3300166: PositiveSpace_Arrow34
+    3300168: PositiveSpace_Arrow35
+    3300170: PositiveSpace_Arrow36
+    3300172: PositiveSpace_Arrow37
+    3300174: PositiveSpace_Arrow38
+    3300176: PositiveSpace_Arrow39
+    3300178: PositiveSpace_Arrow4
+    3300180: PositiveSpace_Arrow40
+    3300182: PositiveSpace_Arrow41
+    3300184: PositiveSpace_Arrow42
+    3300186: PositiveSpace_Arrow43
+    3300188: PositiveSpace_Arrow44
+    3300190: PositiveSpace_Arrow44 1
+    3300192: PositiveSpace_Arrow44 2
+    3300194: PositiveSpace_Arrow44 3
+    3300196: PositiveSpace_Arrow45
+    3300198: PositiveSpace_Arrow45 1
+    3300200: PositiveSpace_Arrow45 2
+    3300202: PositiveSpace_Arrow45 3
+    3300204: PositiveSpace_Arrow46
+    3300206: PositiveSpace_Arrow46 1
+    3300208: PositiveSpace_Arrow46 2
+    3300210: PositiveSpace_Arrow46 3
+    3300212: PositiveSpace_Arrow47
+    3300214: PositiveSpace_Arrow47 1
+    3300216: PositiveSpace_Arrow47 2
+    3300218: PositiveSpace_Arrow47 3
+    3300220: PositiveSpace_Arrow48
+    3300222: PositiveSpace_Arrow48 1
+    3300224: PositiveSpace_Arrow48 2
+    3300226: PositiveSpace_Arrow48 3
+    3300228: PositiveSpace_Arrow49
+    3300230: PositiveSpace_Arrow49 1
+    3300232: PositiveSpace_Arrow49 2
+    3300234: PositiveSpace_Arrow49 3
+    3300236: PositiveSpace_Arrow5
+    3300238: PositiveSpace_Arrow50
+    3300240: PositiveSpace_Arrow50 1
+    3300242: PositiveSpace_Arrow50 2
+    3300244: PositiveSpace_Arrow50 3
+    3300246: PositiveSpace_Arrow51
+    3300248: PositiveSpace_Arrow51 1
+    3300250: PositiveSpace_Arrow51 2
+    3300252: PositiveSpace_Arrow51 3
+    3300254: PositiveSpace_Arrow52
+    3300256: PositiveSpace_Arrow52 1
+    3300258: PositiveSpace_Arrow52 2
+    3300260: PositiveSpace_Arrow52 3
+    3300262: PositiveSpace_Arrow53
+    3300264: PositiveSpace_Arrow53 1
+    3300266: PositiveSpace_Arrow53 2
+    3300268: PositiveSpace_Arrow53 3
+    3300270: PositiveSpace_Arrow54
+    3300272: PositiveSpace_Arrow54 1
+    3300274: PositiveSpace_Arrow54 2
+    3300276: PositiveSpace_Arrow54 3
+    3300278: PositiveSpace_Arrow55
+    3300280: PositiveSpace_Arrow55 1
+    3300282: PositiveSpace_Arrow55 2
+    3300284: PositiveSpace_Arrow55 3
+    3300286: PositiveSpace_Arrow56
+    3300288: PositiveSpace_Arrow56 1
+    3300290: PositiveSpace_Arrow56 2
+    3300292: PositiveSpace_Arrow56 3
+    3300294: PositiveSpace_Arrow6
+    3300296: PositiveSpace_Arrow7
+    3300298: PositiveSpace_Arrow8
+    3300300: PositiveSpace_Arrow9
+    3300302: PositiveSpace_ArrowGuide
+    3300304: pTorus1
+    3300306: pTorus2
+    3300308: SouthWall
+    3300310: WestWall
+    4300000: Center
+    4300002: ChairRail
+    4300004: NorthWall
+    4300006: EastWall
+    4300008: WestWall
+    4300010: SouthWall
+    4300012: FloorBoard
+    4300014: Ceiling
+    4300016: Floor
+    4300018: pCone1
+    4300020: Arrow23
+    4300022: Arrow22
+    4300024: Arrow21
+    4300026: Arrow20
+    4300028: Arrow19
+    4300030: Arrow18
+    4300032: Arrow17
+    4300034: Arrow16
+    4300036: Arrow15
+    4300038: Arrow14
+    4300040: Arrow13
+    4300042: Arrow12
+    4300044: Arrow11
+    4300046: Arrow10
+    4300048: Arrow9
+    4300050: Arrow8
+    4300052: Arrow7
+    4300054: Arrow6
+    4300056: Arrow5
+    4300058: Arrow4
+    4300060: Arrow3
+    4300062: Arrow2
+    4300064: Arrow1
+    4300066: pTorus1
+    4300068: pCube1
+    4300070: pCube2
+    4300072: pTorus2
+    4300074: PositiveSpace_ArrowGuide
+    4300076: NegativeSpace_Arrow
+    4300078: PositiveSpace_Arrow55
+    4300080: PositiveSpace_Arrow56
+    4300082: PositiveSpace_Arrow52
+    4300084: PositiveSpace_Arrow51
+    4300086: PositiveSpace_Arrow53
+    4300088: PositiveSpace_Arrow49
+    4300090: PositiveSpace_Arrow50
+    4300092: PositiveSpace_Arrow44
+    4300094: PositiveSpace_Arrow45
+    4300096: PositiveSpace_Arrow46
+    4300098: PositiveSpace_Arrow54
+    4300100: PositiveSpace_Arrow47
+    4300102: PositiveSpace_Arrow48
+    4300104: PositiveSpace_Arrow3
+    4300106: PositiveSpace_Arrow4
+    4300108: PositiveSpace_Arrow5
+    4300110: PositiveSpace_Arrow6
+    4300112: PositiveSpace_Arrow7
+    4300114: PositiveSpace_Arrow8
+    4300116: PositiveSpace_Arrow9
+    4300118: PositiveSpace_Arrow10
+    4300120: PositiveSpace_Arrow11
+    4300122: PositiveSpace_Arrow12
+    4300124: PositiveSpace_Arrow13
+    4300126: PositiveSpace_Arrow14
+    4300128: PositiveSpace_Arrow15
+    4300130: PositiveSpace_Arrow16
+    4300132: PositiveSpace_Arrow17
+    4300134: PositiveSpace_Arrow18
+    4300136: PositiveSpace_Arrow19
+    4300138: PositiveSpace_Arrow20
+    4300140: PositiveSpace_Arrow21
+    4300142: PositiveSpace_Arrow22
+    4300144: PositiveSpace_Arrow23
+    4300146: PositiveSpace_Arrow24
+    4300148: PositiveSpace_Arrow25
+    4300150: PositiveSpace_Arrow26
+    4300152: PositiveSpace_Arrow27
+    4300154: PositiveSpace_Arrow31
+    4300156: PositiveSpace_Arrow32
+    4300158: PositiveSpace_Arrow33
+    4300160: PositiveSpace_Arrow34
+    4300162: PositiveSpace_Arrow35
+    4300164: PositiveSpace_Arrow36
+    4300166: PositiveSpace_Arrow37
+    4300168: PositiveSpace_Arrow38
+    4300170: PositiveSpace_Arrow39
+    4300172: PositiveSpace_Arrow40
+    4300174: PositiveSpace_Arrow41
+    4300176: PositiveSpace_Arrow42
+    4300178: PositiveSpace_Arrow43
+    4300180: PositiveSpace_Arrow55
+    4300182: PositiveSpace_Arrow56
+    4300184: PositiveSpace_Arrow52
+    4300186: PositiveSpace_Arrow51
+    4300188: PositiveSpace_Arrow53
+    4300190: PositiveSpace_Arrow49
+    4300192: PositiveSpace_Arrow50
+    4300194: PositiveSpace_Arrow44
+    4300196: PositiveSpace_Arrow45
+    4300198: PositiveSpace_Arrow46
+    4300200: PositiveSpace_Arrow54
+    4300202: PositiveSpace_Arrow47
+    4300204: PositiveSpace_Arrow48
+    4300206: PositiveSpace_Arrow55
+    4300208: PositiveSpace_Arrow56
+    4300210: PositiveSpace_Arrow52
+    4300212: PositiveSpace_Arrow51
+    4300214: PositiveSpace_Arrow53
+    4300216: PositiveSpace_Arrow49
+    4300218: PositiveSpace_Arrow50
+    4300220: PositiveSpace_Arrow44
+    4300222: PositiveSpace_Arrow45
+    4300224: PositiveSpace_Arrow46
+    4300226: PositiveSpace_Arrow54
+    4300228: PositiveSpace_Arrow47
+    4300230: PositiveSpace_Arrow48
+    4300232: PositiveSpace_Arrow55
+    4300234: PositiveSpace_Arrow56
+    4300236: PositiveSpace_Arrow52
+    4300238: PositiveSpace_Arrow51
+    4300240: PositiveSpace_Arrow53
+    4300242: PositiveSpace_Arrow49
+    4300244: PositiveSpace_Arrow50
+    4300246: PositiveSpace_Arrow44
+    4300248: PositiveSpace_Arrow45
+    4300250: PositiveSpace_Arrow46
+    4300252: PositiveSpace_Arrow54
+    4300254: PositiveSpace_Arrow47
+    4300256: PositiveSpace_Arrow48
+    4300258: NegSpaceArrow_Body1
+    4300260: NegSpaceArrow_Body2
+    4300262: Picture_Frame_Front
+    4300264: Picture_Frame_Face
+    4300266: Picture_Frame_InnerBoarder
+    4300268: Picture_Frame_Front
+    4300270: Picture_Frame_Face
+    4300272: Picture_Frame_InnerBoarder
+    4300274: Picture_Frame_Front
+    4300276: Picture_Frame_Face
+    4300278: Picture_Frame_InnerBoarder
+    4300280: Picture_Frame_Front
+    4300282: Picture_Frame_Face
+    4300284: Picture_Frame_InnerBoarder
+    4300286: Picture_Frame_Front
+    4300288: Picture_Frame_Face
+    4300290: Picture_Frame_InnerBoarder
+    4300292: Picture_Frame_Front
+    4300294: Picture_Frame_Face
+    4300296: Picture_Frame_InnerBoarder
+    4300298: Picture_Frame_Front
+    4300300: Picture_Frame_Face
+    4300302: Picture_Frame_InnerBoarder
+    4300304: Pillar
+    4300306: FakeExit_Boarder
+    4300308: FakeExit
+    4300310: Pillar1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arrow_Blinn
+    second: {fileID: 2100000, guid: 8e682fcc159ac614fbee7062b2975fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawingHands_Picture_MAT
+    second: {fileID: 2100000, guid: b24d7f69381a74145affb07dbdb6c86b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escher_SelfPortratit_MAT
+    second: {fileID: 2100000, guid: b700e93af54c21f4a8e49fa3e76ff322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye_MAT
+    second: {fileID: 2100000, guid: ca7ae71acb50cd04797b24cc1ecfe270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FakeExit_MAT
+    second: {fileID: 2100000, guid: e0f671199eb71e645976a6300cec07b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Guls_PosNeg_MAT
+    second: {fileID: 2100000, guid: 4d0b1d6f92db48d458d6afcc3dd0a72f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lvl00Wall_Movie_MAT
+    second: {fileID: 2100000, guid: 8d44d2b0881548d44b55cef5b7e0bb2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lvl00_Walls_Texture_MAT
+    second: {fileID: 2100000, guid: 9bfa88f97b6d8e64db36610b88722603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_Frame_MAT
+    second: {fileID: 2100000, guid: 6f47c85c410edcb46a554bac309ad7f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pictureframe02_MAT
+    second: {fileID: 2100000, guid: e7ba1aea22deb384181c256b92c77d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pictureframe03_MAT
+    second: {fileID: 2100000, guid: c2457a873215d81459f197a2a60e088f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pictureframe04_MAT
+    second: {fileID: 2100000, guid: 1623ef147cece3c42bd3654aaeadb8ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pictureframe05_MAT
+    second: {fileID: 2100000, guid: 176887115c4cc334c94bd2893f43f10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PositiveNegative_MonkeyMen_MAT
+    second: {fileID: 2100000, guid: defbbdc15e7bc374e85ad7f6a0ec5095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reptiles_MAT
+    second: {fileID: 2100000, guid: aeb916ba9f6bc124dbd8de1fb9ade055, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_ChairRail_FloorBoard_MAT
+    second: {fileID: 2100000, guid: a5fbea00b3bdc87489e3c37cf714e9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFLoorTexture_MAT
+    second: {fileID: 2100000, guid: 6d4efa1b67c88ad4987d8f8efb0180b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 57a6c62e57ee00f44a7d7bb649522aa0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Drawing_Hands_Escher
+    second: {fileID: 2800000, guid: c1349d0e1a7cb6940903590da292ac89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escher_Eye
+    second: {fileID: 2800000, guid: a9198cc1e7c561b4cbb14f50b6fc0bc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escher_Reptiles
+    second: {fileID: 2800000, guid: d7bc923b8af04e84592f4283ae9127c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escher_blog-1140x642
+    second: {fileID: 2800000, guid: 0abb95bfcbf8b11458a27b650693554b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FakeExitTunnel02
+    second: {fileID: 2800000, guid: beb543f2271c9e94bb2348407860c54b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lvl00_WallsBottom_ChairRailandFloorBoard_BM
+    second: {fileID: 2800000, guid: e3a5795c12508cb4197db7af923b2679, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lvl00_Walls_BM
+    second: {fileID: 2800000, guid: dde4455d5e4e14848adb9defc6181383, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lvl00_Walls_inTexture
+    second: {fileID: 2800000, guid: d2d45b34309a6404593e5fef456dd6eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Picture_Frame_Wood_Texture_02
+    second: {fileID: 2800000, guid: a4b62d801a18de0459395f427bb3534d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Picture_Frame_Wood_Texture_03
+    second: {fileID: 2800000, guid: b6c59941cc4185a4aa9e32ec4e3c45a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Picture_Frame_Wood_Texture_04
+    second: {fileID: 2800000, guid: c042bc50e22b3b443b9ae27b70cec1ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Picture_Frame_Wood_Texture_05
+    second: {fileID: 2800000, guid: 91b15e546ce05c54ea68bda59bbdc563, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodFloor_Texture
+    second: {fileID: 2800000, guid: cad916a661c4d1a4392d3d5f7734f15d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escher
+    second: {fileID: 2800000, guid: 8afe7b15b1de7684e886947e86a70854, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escher1
+    second: {fileID: 2800000, guid: 9a5e115b557ca6b439196a1e62e7e040, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
