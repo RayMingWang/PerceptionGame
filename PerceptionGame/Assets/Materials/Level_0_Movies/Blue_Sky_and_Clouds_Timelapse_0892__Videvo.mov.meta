@@ -8,6 +8,7 @@ VideoClipImporter:
   useLegacyImporter: 0
   quality: 0.5
   isColorLinear: 0
+<<<<<<< HEAD
   originalWidth: 1920
   originalHeight: 1080
   frameRange: 0
@@ -27,6 +28,17 @@ VideoClipImporter:
   importAudio: 0
   sourceAudioChannelCount: 
   sourceAudioSampleRate: 
+=======
+  frameRange: 0
+  startFrame: -1
+  endFrame: -1
+  colorSpace: 0
+  deinterlace: 0
+  encodeAlpha: 0
+  flipVertical: 1
+  flipHorizontal: 0
+  importAudio: 1
+>>>>>>> 7fadba69983d881160da886ae00954a560b83c7e
   targetSettings:
     0:
       enableTranscoding: 0
@@ -46,6 +58,7 @@ VideoClipImporter:
       customHeight: 1080
       bitrateMode: 2
       spatialQuality: 2
+<<<<<<< HEAD
   output:
     format: 1
     settings:
@@ -65,6 +78,8 @@ VideoClipImporter:
       source: library/metadata/86/86a310dcff0135c4380279fea1e7a4b0.resource
       offset: 0
       size: 15395825
+=======
+>>>>>>> 7fadba69983d881160da886ae00954a560b83c7e
   userData: 
   assetBundleName: 
   assetBundleVariant: 

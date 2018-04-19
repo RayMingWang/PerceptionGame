@@ -33,3 +33,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 PerceptionGame.zip
+PerceptionGame/.vs/PerceptionGame/v15/Server/sqlite3/storage.ide
+PerceptionGame/Assets/Materials/Level_0_Movies/Blue_Sky_and_Clouds_Timelapse_0892__Videvo.mov.meta
+PerceptionGame/ProjectSettings/ProjectVersion.txt
