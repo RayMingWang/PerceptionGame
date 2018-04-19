@@ -6,10 +6,11 @@ public class CheckPerspective : MonoBehaviour
 {
     private AudioSource m_audioPrompt;
     private Camera m_playerCamera;
+    private GameObject m_room;
 
     bool perspectiveTriggered = false;
 
-    private const float MAX_VECTOR_DIFFERENCE = 0.08f;
+    private const float MAX_VECTOR_DIFFERENCE = 0.09f;
     private const float MAX_POSITIONAL_DIFFERENCE = 0.05f;
 
     // **********************************************************************************************************************
@@ -19,7 +20,9 @@ public class CheckPerspective : MonoBehaviour
     {
         m_playerCamera = GameObject.Find("Player Camera").GetComponent<Camera>();
         m_audioPrompt = GameObject.Find("PromptAudio").GetComponent<AudioSource>();
-	}//END: Start()
+        m_room = GameObject.Find("Level_00");
+        m_room.transform.Find("FakeExit").Find("FakeExit_Boarder").GetComponent<Collider>().enabled = true;
+    }//END: Start()
 
     // **********************************************************************************************************************
 
@@ -40,6 +43,7 @@ public class CheckPerspective : MonoBehaviour
         {
             m_audioPrompt.Play();
             perspectiveTriggered = true;
+            m_room.transform.Find("FakeExit").Find("FakeExit_Boarder").GetComponent<Collider>().enabled = false;
         }
     }//END: OnTriggerStay()
 
@@ -60,7 +64,7 @@ public class CheckPerspective : MonoBehaviour
         vectorDifference = (playerCameraForward - this.transform.forward).magnitude;
 
         //Print "vectorDifference" to Console for Debugging Purposes
-        print("Forward Vector Difference =  " + vectorDifference);
+        //print("Forward Vector Difference =  " + vectorDifference);
 
         return vectorDifference;
     }//END: CheckVectorDifference()
@@ -74,7 +78,7 @@ public class CheckPerspective : MonoBehaviour
         positionalDifference = (playerCameraPostion - this.transform.position).magnitude;
 
         //Print "positionalDifference" to Console for Debugging Purposes
-        print("Positional Difference =  " + positionalDifference);
+        //print("Positional Difference =  " + positionalDifference);
 
         return positionalDifference;
     }//END: CheckPositionalDifference()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateWalls : MonoBehaviour
 {
-    private const float SPEED = 5.0f;
+    private const float SPEED = 10.0f;
     private float direction = 0.0f;
     public float Direction
     {
