@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UI;
 
 public class Death : MonoBehaviour
 {
     private Transform m_goal;
     private NavMeshAgent m_agent;
+    private float m_Force = 500.0f;
 
     [SerializeField]
     private bool m_playerInCenter;
@@ -66,6 +66,10 @@ public class Death : MonoBehaviour
                 col.enabled = false;
             }
         }//END: "if" the player and Death are both inside of the center Ring - Enable the WIN message
+        else if(other.CompareTag("Player"))
+        {
+            other.GetComponent<CharacterController>().Move((other.transform.position - this.transform.position).normalized * Time.deltaTime * m_Force);
+        }
     }//END: OnTriggerEnter
 
 
