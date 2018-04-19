@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: db921f7bc5847b84387bc6cd576d3aaa
+timeCreated: 1523547313
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EastWall_Center
+    100004: EastWall_MidOuter
+    100006: //RootNode
+    100008: NorthEastWall_MidInner
+    100010: NorthWall_Center
+    100012: NorthWall_MidOuter
+    100014: NorthWestWall_MidInner
+    100016: ProspectSpace_Floor
+    100018: SouthEastWall_MidInner
+    100020: SouthWall_Center
+    100022: SouthWall_MidOuter
+    100024: SouthWestWall_MidInner
+    100026: Walls_Center
+    100028: Walls_Exterior
+    100030: Walls_Middle_Inner
+    100032: Walls_Middle_Outer
+    100034: WestWall_Center
+    100036: WestWall_MidOuter
+    400000: directionalLight1
+    400002: EastWall_Center
+    400004: EastWall_MidOuter
+    400006: //RootNode
+    400008: NorthEastWall_MidInner
+    400010: NorthWall_Center
+    400012: NorthWall_MidOuter
+    400014: NorthWestWall_MidInner
+    400016: ProspectSpace_Floor
+    400018: SouthEastWall_MidInner
+    400020: SouthWall_Center
+    400022: SouthWall_MidOuter
+    400024: SouthWestWall_MidInner
+    400026: Walls_Center
+    400028: Walls_Exterior
+    400030: Walls_Middle_Inner
+    400032: Walls_Middle_Outer
+    400034: WestWall_Center
+    400036: WestWall_MidOuter
+    2100000: ProspectSpace_InnerWalls_MAT
+    2100002: ProspectSpace_OuterWalls_MAT
+    2100004: ProspectSpace_Floor_MAT
+    2300000: EastWall_Center
+    2300002: EastWall_MidOuter
+    2300004: NorthEastWall_MidInner
+    2300006: NorthWall_Center
+    2300008: NorthWall_MidOuter
+    2300010: NorthWestWall_MidInner
+    2300012: ProspectSpace_Floor
+    2300014: SouthEastWall_MidInner
+    2300016: SouthWall_Center
+    2300018: SouthWall_MidOuter
+    2300020: SouthWestWall_MidInner
+    2300022: Walls_Exterior
+    2300024: WestWall_Center
+    2300026: WestWall_MidOuter
+    3300000: EastWall_Center
+    3300002: EastWall_MidOuter
+    3300004: NorthEastWall_MidInner
+    3300006: NorthWall_Center
+    3300008: NorthWall_MidOuter
+    3300010: NorthWestWall_MidInner
+    3300012: ProspectSpace_Floor
+    3300014: SouthEastWall_MidInner
+    3300016: SouthWall_Center
+    3300018: SouthWall_MidOuter
+    3300020: SouthWestWall_MidInner
+    3300022: Walls_Exterior
+    3300024: WestWall_Center
+    3300026: WestWall_MidOuter
+    4300000: NorthWall_Center
+    4300002: EastWall_Center
+    4300004: WestWall_Center
+    4300006: SouthWall_Center
+    4300008: NorthEastWall_MidInner
+    4300010: NorthWestWall_MidInner
+    4300012: SouthEastWall_MidInner
+    4300014: SouthWestWall_MidInner
+    4300016: NorthWall_MidOuter
+    4300018: EastWall_MidOuter
+    4300020: WestWall_MidOuter
+    4300022: SouthWall_MidOuter
+    4300024: Walls_Exterior
+    4300026: ProspectSpace_Floor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProspectSpace_Floor_MAT
+    second: {fileID: 2100000, guid: 52ceed92f61b4674e86b75b4a698bd7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProspectSpace_InnerWalls_MAT
+    second: {fileID: 2100000, guid: b5317579d47534540b46d948c5bb234b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProspectSpace_OuterWalls_MAT
+    second: {fileID: 2100000, guid: cb481bc75fce14643ae2fa5bd8e4205c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Texture02
+    second: {fileID: 2800000, guid: 664eaa14949ffb142bd691fd792693c9, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
