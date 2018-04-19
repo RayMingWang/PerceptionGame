@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FakeExit_Boarder
+  - Level_10_InnerWalls
+  - Death
   layers:
   - Default
   - TransparentFX
@@ -14,9 +17,9 @@ TagManager:
   - 
   - 
   - Roof
-  - 
-  - 
-  - 
+  - Level_10_InnerWalls
+  - Player
+  - Death
   - 
   - 
   - 

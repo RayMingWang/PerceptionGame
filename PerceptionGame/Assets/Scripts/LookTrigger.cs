@@ -41,9 +41,10 @@ public class LookTrigger : MonoBehaviour {
         float distance_multi=  (max_distance - Vector3.Distance(player.position, this.transform.position))/max_distance;
         this.transform.eulerAngles = player.eulerAngles + playercamera.eulerAngles;
 
-        float angle_multi = Vector3.Distance(defalutAngle,this.transform.forward);
+        float angle_multi = Vector3.Distance(defalutAngle, playercamera.transform.forward);
         angle_multi = (0.2f - angle_multi / 2f)*maxOpaque;
         statue.SetPromptTransparency(angle_multi+ distance_multi*0.6f);
+        //statue.SetPromptTransparency(1f);
         if (angle_multi + distance_multi * 0.6f > 0.7f)
         {
             if (player_controller.fly_count == 0)
@@ -54,7 +55,8 @@ public class LookTrigger : MonoBehaviour {
             }
 
         }
-        Debug.Log(angle_multi + distance_multi * 0.6f);
+        Debug.Log(playercamera.transform.forward);
+        //Debug.Log(angle_multi*0.4 + distance_multi * 0.6f);
     }
     private void OnTriggerExit(Collider other)
     {
