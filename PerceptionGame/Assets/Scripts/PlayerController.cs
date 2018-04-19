@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public int fly_count = 0;
     public float camSensitivty = 5f;
     public Transform camtransform;
-    public float camMaxAngle = 60.0f;
+    public float camMaxAngle = 85.0f;
 	public float gravity = -9.18f;
 
     private CharacterController _controller;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
         //Movement
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        move =  transform.localRotation * move;
+        move = transform.rotation * move;
         _controller.Move(move * Time.deltaTime * speed);
         //if (move != Vector3.zero)
         //    transform.forward = move;
